@@ -6,15 +6,14 @@ This NLP application has several features! It serves as a Named-Entity Recogniti
 
 ## Dependencies
 To run this project ensure you have these libraries installed:<br><br>
-**NumPy:** Handles numerical operations and large arrays<br>
-**Pandas:** Provides tools and data structures for analysis<br>
-**yfinance:** Yahoo Finance's libary to use their information<br>
-**Scikit-learn:** Essential for feature extraction and computing the similarity scores of the movies.<br>
-**Keras** Libraries needed for building neural networks and training the deep learning model
+**Streamlit:** Handles the front-end web interface<br>
+**Spacy:** NLP library for advanced text analysis<br>
+**TextBlob:** Used for noun-phrase extraction, sentiment analysis and more<br>
+**Sumy:** Designed to extract summaries from text documents<br>
 
 To install all dependencies at once:
 
-**pip install numpy pandas yfinance matplotlib pandas_datareader scikit-learn keras streamlit tensorflow**
+**pip install streamlit spacy textblob sumy **
 
 ## Usage
 1. Copy the repository to your local machine.
