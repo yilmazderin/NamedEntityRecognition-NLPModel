@@ -1,4 +1,4 @@
-<h1 align="center">Stock Predictor</h1>
+<h1 align="center">Named-Entity Recognition Model</h1>
 
 This NLP application has several features! It serves as a Named-Entity Recognition model where it can tokenize, extract entities, evaluate sentiment score of and summarize your custom text.
 
