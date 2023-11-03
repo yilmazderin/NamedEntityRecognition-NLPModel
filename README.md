@@ -2,7 +2,7 @@
 
 This NLP application has several features! It serves as a Named-Entity Recognition model where it can tokenize, extract entities, evaluate sentiment score of and summarize your custom text.
 
-![NER App Screenshot](./NER%20Web%20App%20Picture.png)
+![NER Web App Screenshot](./NER%20Web%20App%20Picture.png)
 
 ## Dependencies
 To run this project ensure you have these libraries installed:<br><br>
