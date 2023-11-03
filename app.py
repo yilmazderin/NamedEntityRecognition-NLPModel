@@ -39,17 +39,20 @@ def main():
         nlp_result = text_analyzer(message)
         st.json(nlp_result)
     
-
     if st.button("Extract Entities from your text."):
         nlp_result = entity(message)
         st.json(nlp_result)
     
+    #Sentiment score feautre
     if st.button("Sentiment score of your text"):
+        #Using TextBlob to evaluate sentiment score of user input
         blob = TextBlob(message)
         result_sentiment = blob.sentiment
         st.success(result_sentiment)
 
+    #Summarization feature
     if st.button("Summarize your text"):
+        #Using sumy library
         summary_result = sumy_summarizer(message)
         st.success(summary_result)
 
